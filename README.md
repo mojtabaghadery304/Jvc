@@ -17,7 +17,7 @@
     }
     .products {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
       gap: 1rem;
       padding: 1rem;
     }
@@ -34,8 +34,8 @@
       object-fit: cover;
     }
     .product h3 {
-      font-size: 1rem;
-      margin: 0.5rem 0;
+      font-size: 1.5rem;
+      margin: 0.8rem 0;
     }
     .product p {
       color: green;
